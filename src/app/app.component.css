@@ -1,0 +1,130 @@
+.container {
+    margin-top: 200px;
+   
+  
+   
+ }
+ .form {
+    display: flex;
+    justify-content: center;
+   
+  
+  
+
+ }
+ input {
+    width: 1000px;
+    height: 30px;
+    
+   
+ }
+  
+ button {
+
+    margin-left: 15px;
+    width: 400px;
+    margin: 10px;
+    margin-top: 20px; 
+    margin-left: 470px;
+    background: 	#A9A9A9;
+    height: 30px;
+    
+   
+ }
+
+ .sb {
+
+   margin: 50px;
+   margin-left: 700px;
+   
+
+  }
+  .mainbox{
+     width: 1200px;
+     height: 1200px;
+     border: 5px solid black;
+     position: relative;
+     background-color:	#e4b381; 		
+     margin-left: 300px;
+  }
+
+.boxes{
+   width: 60px;
+   height: 50px;
+   background-color: ;
+   position: relative;
+   margin-left: 500px;
+   margin-top: 5px;
+   margin-bottom: 30px;
+   display: flex ;
+}
+
+.header{
+   margin-left: 500px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box{
+   margin-top: 80px;
+}
+
+.terms{
+   margin-left: 500px;
+
+}
+ 
+
+#p2{
+   width: 80px;
+   margin-left: 90px;
+
+
+}
+
+
+#users {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 60%;
+   margin-left: 300px;
+   margin-top: 30px;
+ }
+ 
+ #users td, #customers th {
+   border: 1px solid #ddd;
+   padding: 10px; 
+
+ }
+ 
+ #users tr:nth-child(even){background-color: #f2f2f2;}
+ 
+ #users tr:hover {background-color: #ddd;}
+ 
+ #users th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color:	#e4b381;
+   color: white;
+  
+ }
+
+
+
+  
+   
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+

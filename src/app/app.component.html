@@ -1,0 +1,105 @@
+<div>
+  <div>
+
+    <div class="mainbox">
+
+
+      <div class="box">
+
+
+
+
+
+
+        <div class="header" style="color:#FFFAFA;">
+          <h1>REGISTER FORM</h1>
+
+        </div>
+
+
+
+
+
+        <div class="boxes"><img src="../assets/icons/icon-person.jpg" width="50px" style="margin-bottom: 10px;"><input
+            type="text" placeholder="first name" [(ngModel)]="firstname"></div>
+
+        <div class="boxes"><img src="../assets/icons/icon-person.jpg" width="50px" style="margin-bottom: 10px;"><input
+            type="text" placeholder="surname" [(ngModel)]="name"></div>
+
+        <div class="boxes"><img src="../assets/icons/icon-identity.jpg" width="50px" style="margin-bottom: 10px;"><input
+            type="text" placeholder="ID number " [(ngModel)]="id"></div>
+
+        <div class="boxes"><img src="../assets/icons/icon-email.jpg" width="50px" style="margin-bottom: 10px;"><input
+            type="text" placeholder="Email Address" [(ngModel)]="email"></div>
+
+        <div class="boxes"><img src="../assets/icons/icon-phone.png" width="50px" style="margin-bottom: 10px;"><input
+            type="text" placeholder="contact numbers" [(ngModel)]="contacnumber"></div>
+
+      </div>
+
+
+
+      <div class="terms">
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      </div>
+
+
+      <div>
+        <button (click)="submit()" style="color: white;">
+
+          <strong>submit</strong>
+
+        </button>
+      </div>
+
+
+
+
+
+      <table id="users">
+        <tr>
+          
+          <th>firstname</th>
+          <th>surname</th>
+          <th>id number</th>
+          <th>email address</th>
+          <th>contact number</th>
+
+        </tr>
+
+        <tr *ngFor="let user of list ; let i = index">
+          <td>{{user.firstname}}</td>
+          <td>{{user.surname}}</td>
+          <td>{{user.id}}</td>
+          <td>{{user.email}}</td>
+          <td> {{user.contacnumber}}</td>
+
+
+
+
+
+          
+            <button (click)="myFunction()" style="color: white;" id="p2">
+
+              delete
+
+            </button>
+
+
+
+        </tr>
+
+
+      </table>
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+</div>
